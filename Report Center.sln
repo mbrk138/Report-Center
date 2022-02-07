@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infracuctuer", "4-Infracu
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Host", "1-Host", "{3E348FA3-8AB1-4622-A803-C29EA15D1A31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{C243F4C4-69D3-471F-AFA5-1410D5E96B43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,17 @@ Global
 		{776D4D07-0ED7-42F1-9D6B-321D33663BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{776D4D07-0ED7-42F1-9D6B-321D33663BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{776D4D07-0ED7-42F1-9D6B-321D33663BEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C243F4C4-69D3-471F-AFA5-1410D5E96B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C243F4C4-69D3-471F-AFA5-1410D5E96B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C243F4C4-69D3-471F-AFA5-1410D5E96B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C243F4C4-69D3-471F-AFA5-1410D5E96B43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{776D4D07-0ED7-42F1-9D6B-321D33663BEA} = {3E348FA3-8AB1-4622-A803-C29EA15D1A31}
+		{C243F4C4-69D3-471F-AFA5-1410D5E96B43} = {1E2E6EEA-2ACE-4317-BB9C-A6236BEFF143}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D4AF791-71FB-4935-96E4-5697EA065C0B}
