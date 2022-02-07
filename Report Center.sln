@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Report Center", "Report Center\Report Center.csproj", "{776D4D07-0ED7-42F1-9D6B-321D33663BEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Report Center", "Report Center\Report Center.csproj", "{776D4D07-0ED7-42F1-9D6B-321D33663BEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{1E2E6EEA-2ACE-4317-BB9C-A6236BEFF143}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{4D3B1D9B-E337-45B7-BF23-D2EC18C47F42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infracuctuer", "4-Infracuctuer", "{C4C2A644-EB5F-4378-AA45-6C059AB4D466}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Host", "1-Host", "{3E348FA3-8AB1-4622-A803-C29EA15D1A31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{776D4D07-0ED7-42F1-9D6B-321D33663BEA} = {3E348FA3-8AB1-4622-A803-C29EA15D1A31}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D4AF791-71FB-4935-96E4-5697EA065C0B}
