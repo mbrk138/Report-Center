@@ -1085,11 +1085,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mohammad\\source\\repos\\Report Center\\Report Center\\Report Center.csproj",
-      "projectName": "Report Center",
-      "projectPath": "C:\\Users\\Mohammad\\source\\repos\\Report Center\\Report Center\\Report Center.csproj",
+      "projectUniqueName": "C:\\Users\\Mohammad\\source\\repos\\Report Center\\Infrastructure\\Infrastructure.csproj",
+      "projectName": "Infrastructure",
+      "projectPath": "C:\\Users\\Mohammad\\source\\repos\\Report Center\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Mohammad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mohammad\\source\\repos\\Report Center\\Report Center\\obj\\",
+      "outputPath": "C:\\Users\\Mohammad\\source\\repos\\Report Center\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1138,9 +1138,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

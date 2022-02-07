@@ -1,0 +1,10 @@
+C:\Users\Mohammad\source\repos\Report Center\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.deps.json
+C:\Users\Mohammad\source\repos\Report Center\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\Mohammad\source\repos\Report Center\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\Mohammad\source\repos\Report Center\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Mohammad\source\repos\Report Center\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohammad\source\repos\Report Center\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Mohammad\source\repos\Report Center\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
+C:\Users\Mohammad\source\repos\Report Center\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Mohammad\source\repos\Report Center\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\Mohammad\source\repos\Report Center\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb

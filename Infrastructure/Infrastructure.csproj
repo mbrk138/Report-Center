@@ -5,12 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Dto\" />
-    <Folder Include="Service\Class\" />
-    <Folder Include="Service\Interface\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.5" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
   </ItemGroup>

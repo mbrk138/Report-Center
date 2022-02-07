@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mohammad\\source\\repos\\Report Center\\Application\\Application.csproj": {}
+    "C:\\Users\\Mohammad\\source\\repos\\Report Center\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mohammad\\source\\repos\\Report Center\\Application\\Application.csproj": {
+    "C:\\Users\\Mohammad\\source\\repos\\Report Center\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammad\\source\\repos\\Report Center\\Application\\Application.csproj",
-        "projectName": "Application",
-        "projectPath": "C:\\Users\\Mohammad\\source\\repos\\Report Center\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Mohammad\\source\\repos\\Report Center\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "C:\\Users\\Mohammad\\source\\repos\\Report Center\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Mohammad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammad\\source\\repos\\Report Center\\Application\\obj\\",
+        "outputPath": "C:\\Users\\Mohammad\\source\\repos\\Report Center\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
