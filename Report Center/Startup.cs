@@ -1,3 +1,4 @@
+using Infrastructure.Persis;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -26,6 +27,8 @@ namespace Report_Center
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            services.AddSingleton<DateBassDbContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
