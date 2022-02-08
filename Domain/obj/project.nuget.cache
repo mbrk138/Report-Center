@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "UUD0XsCAvO3GeWI0oDJH1s14Qp7wbOe56xsW/hYVAyvWuvM1qZnxC//HMW73WAiwGNYQC/kS/BXsCoIfaEAQgg==",
+  "dgSpecHash": "0iID+PuLDWSL/IVa+EKOFA5IZFU9nmD8qUOTknxpQcK1wjoUk9nUHiMqjtygSXUk+FbmIOnnhM+2Bah3cYbv3Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mohammad\\source\\repos\\Report Center\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Mohammad\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\Mohammad\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

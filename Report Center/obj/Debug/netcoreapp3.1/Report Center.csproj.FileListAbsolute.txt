@@ -1,0 +1,52 @@
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\Report Center.exe
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\Report Center.deps.json
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\Report Center.runtimeconfig.json
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\Report Center.runtimeconfig.dev.json
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\Report Center.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\Report Center.pdb
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\Application.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\Application.pdb
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\Mohammad\source\repos\Report Center\Report Center\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\Mohammad\source\repos\Report Center\Report Center\obj\Debug\netcoreapp3.1\Report Center.csproj.AssemblyReference.cache
+C:\Users\Mohammad\source\repos\Report Center\Report Center\obj\Debug\netcoreapp3.1\Report Center.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohammad\source\repos\Report Center\Report Center\obj\Debug\netcoreapp3.1\Report Center.AssemblyInfoInputs.cache
+C:\Users\Mohammad\source\repos\Report Center\Report Center\obj\Debug\netcoreapp3.1\Report Center.AssemblyInfo.cs
+C:\Users\Mohammad\source\repos\Report Center\Report Center\obj\Debug\netcoreapp3.1\Report Center.csproj.CoreCompileInputs.cache
+C:\Users\Mohammad\source\repos\Report Center\Report Center\obj\Debug\netcoreapp3.1\Report Center.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Mohammad\source\repos\Report Center\Report Center\obj\Debug\netcoreapp3.1\staticwebassets\Report Center.StaticWebAssets.Manifest.cache
+C:\Users\Mohammad\source\repos\Report Center\Report Center\obj\Debug\netcoreapp3.1\staticwebassets\Report Center.StaticWebAssets.xml
+C:\Users\Mohammad\source\repos\Report Center\Report Center\obj\Debug\netcoreapp3.1\scopedcss\bundle\Report Center.styles.css
+C:\Users\Mohammad\source\repos\Report Center\Report Center\obj\Debug\netcoreapp3.1\Report Center.RazorTargetAssemblyInfo.cache
+C:\Users\Mohammad\source\repos\Report Center\Report Center\obj\Debug\netcoreapp3.1\Report Center.dll
+C:\Users\Mohammad\source\repos\Report Center\Report Center\obj\Debug\netcoreapp3.1\Report Center.pdb
+C:\Users\Mohammad\source\repos\Report Center\Report Center\obj\Debug\netcoreapp3.1\Report Center.genruntimeconfig.cache
+C:\Users\Mohammad\source\repos\Report Center\Report Center\obj\Debug\netcoreapp3.1\Report Center.csproj.CopyComplete
