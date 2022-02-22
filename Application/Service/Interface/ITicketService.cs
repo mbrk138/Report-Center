@@ -9,8 +9,8 @@ namespace Application.Service.Interface
 {
     public interface ITicketService
     {
-        Task<List<ReportCenterDto>> GetAfterDatTicket(RepotCenterCommand command);
-
+        Task<List<ReportCenterDto>> GetAfterDatTicket( RepotCenterCommand command);
+        Task<List<ReportCenterDto>> GetAfterDatTicketSP(RepotCenterCommand command);
 
     }
 }

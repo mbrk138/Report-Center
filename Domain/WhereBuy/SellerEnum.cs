@@ -8,8 +8,8 @@ namespace Domain.Enum
     public enum WhereBuy
     {
         [Description("سایت")] Site = 1,
-        [Description("سایت")] Seller = 2,
-        [Description("سایت")] Presence = 3
+        [Description("فروشگاه")] Seller = 2,
+        [Description("حظوری")] Presence = 3
     }
 
 }

@@ -9,19 +9,18 @@ namespace Application.Dto
         /// <summary>
         /// قیمت هر بلیط
         /// </summary>
-        public decimal Price { get; set; }
+        public int Count { get; set; }
 
         /// <summary>
         /// تعداد بلیط
         /// </summary>
-        public int Count { get; set; }
+        public decimal Sum { get; set; }
 
         /// <summary>
         /// تاریخ 
         /// </summary>
-        public int Date { get; set; }
-
-
-
+        public int SubmitDate { get; set; }
     }
+
+
 }

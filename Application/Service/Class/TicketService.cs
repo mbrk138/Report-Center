@@ -1,18 +1,16 @@
-﻿using Infrastructure.Persis;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using Application.Service.Interface;
-using System.Threading.Tasks;
+﻿using Application.Command;
 using Application.Dto;
-using Application.Command;
+using Application.Service.Interface;
 using Dapper;
+using Infrastructure.Persis;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Data;
 
 namespace Application.Service.Class
 {
-    public class TicketService :ITicketService
+    public class TicketService : ITicketService
     {
         private readonly DateBassDbContext _context;
 
@@ -20,16 +18,29 @@ namespace Application.Service.Class
         {
             _context = context;
         }
-
         public async Task<List<ReportCenterDto>> GetAfterDatTicket(RepotCenterCommand command)
         {
-            var query = "";
-            using (var connection=_context.CreateConnection())
+            var query = " select COUNT(Tickets.Id) 'Count' ,sum(Schedules.Price)'sum' ,YEAR(SubmitDate) as SubmitDate  " +
+                        "from Tickets" +
+                        " inner join Schedules on Tickets.ScheduleId = Schedules.Id " +
+                        $"where FunType = N'{command.FunType}' and WhereBuy ='{(int)command.WhereBuy}' " +
+                        " GROUP BY  SubmitDate ";
+            using (var connection = _context.CreateConnection())
             {
                 var result = await connection.QueryAsync<ReportCenterDto>(query);
                 return result.ToList();
             }
+        }
 
+        public async Task<List<ReportCenterDto>> GetAfterDatTicketSP(RepotCenterCommand command)
+        {
+            var query = "SP_Tickets_GetReportDay";
+
+            using (var connection = _context.CreateConnection())
+            {
+                var result = await connection.QueryAsync<ReportCenterDto>(query,new { funtype=command.FunType, whrebuy=command.WhereBuy } ,commandType: CommandType.StoredProcedure);
+                return result.ToList();
+            }
         }
     }
 }
