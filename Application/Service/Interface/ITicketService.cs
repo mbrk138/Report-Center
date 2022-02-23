@@ -13,5 +13,6 @@ namespace Application.Service.Interface
         Task<List<ReportCenterDto>> Getyearticket(ReportCenterCommand command);
         Task<List<ReportCenterDto>> Get6MonthTicket(ReportCenterCommand command);
         Task<List<ReportCenterDto>> GetThisMonth(ReportCenterCommand command);
+        Task<List<ReportCenterDto>> GetThisDay(ReportCenterCommand command);
     }
 }

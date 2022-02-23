@@ -45,7 +45,12 @@ namespace Report_Center.Controllers
             return Ok(result);
         }
 
-
+        [HttpGet("getthisDay")]
+        public async Task<IActionResult> GetThisDay([FromQuery] ReportCenterCommand command)
+        {
+            var result = await _ticketService.GetThisDay(command);
+            return Ok(result);
+        }
     }
 
 }

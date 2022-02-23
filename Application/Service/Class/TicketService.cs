@@ -62,7 +62,15 @@ namespace Application.Service.Class
                 return result.ToList();
             }
         }
-
+        public async Task<List<ReportCenterDto>> GetThisDay(ReportCenterCommand command)
+        {
+            var query = "SP_Tickes_ThisDay";
+            using (var connection = _context.CreateConnection())
+            {
+                var result = await connection.QueryAsync<ReportCenterDto>(query, new { funtype = command.FunType, whrebuy = command.WhereBuy }, commandType: CommandType.StoredProcedure);
+                return result.ToList();
+            }
+        }
 
     }
 }
