@@ -17,19 +17,35 @@ namespace Report_Center.Controllers
         }
 
         [HttpGet("get")]
-        public async Task<IActionResult> Get([FromQuery] RepotCenterCommand command)
+        public async Task<IActionResult> Get([FromQuery] ReportCenterCommand command)
         {
             var result = await _ticketService.GetAfterDatTicket(command);
             return Ok(result);
         }
 
-        [HttpGet("getSP")]
-        public async Task<IActionResult> GetSP([FromQuery] RepotCenterCommand command)
+        [HttpGet("getyear")]
+        public async Task<IActionResult> GetSP([FromQuery] ReportCenterCommand command)
         {
-            var result = await _ticketService.GetAfterDatTicketSP(command);
+            var result = await _ticketService.Getyearticket(command);
+            return Ok(result);
+        }
+
+        [HttpGet("get6month")]
+        public async Task<IActionResult> Get6Month([FromQuery] ReportCenterCommand command)
+        {
+            var result = await _ticketService.Get6MonthTicket(command);
+            return Ok(result);
+        }
+
+
+        [HttpGet("getthismonth")]
+        public async Task<IActionResult> GetThisMonth([FromQuery] ReportCenterCommand command)
+        {
+            var result = await _ticketService.GetThisMonth(command);
             return Ok(result);
         }
 
 
     }
+
 }

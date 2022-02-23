@@ -18,7 +18,7 @@ namespace Application.Service.Class
         {
             _context = context;
         }
-        public async Task<List<ReportCenterDto>> GetAfterDatTicket(RepotCenterCommand command)
+        public async Task<List<ReportCenterDto>> GetAfterDatTicket(ReportCenterCommand command)
         {
             var query = " select COUNT(Tickets.Id) 'Count' ,sum(Schedules.Price)'sum' ,YEAR(SubmitDate) as SubmitDate  " +
                         "from Tickets" +
@@ -32,7 +32,7 @@ namespace Application.Service.Class
             }
         }
 
-        public async Task<List<ReportCenterDto>> GetAfterDatTicketSP(RepotCenterCommand command)
+        public async Task<List<ReportCenterDto>> Getyearticket(ReportCenterCommand command)
         {
             var query = "SP_Tickets_GetReportDay";
 
@@ -42,5 +42,27 @@ namespace Application.Service.Class
                 return result.ToList();
             }
         }
+
+        public async Task<List<ReportCenterDto>> Get6MonthTicket(ReportCenterCommand command)
+        {
+            var query = "SP_Tickets_Get6Month";
+            using(var connection=_context.CreateConnection())
+            {
+                var result = await connection.QueryAsync<ReportCenterDto>(query, new { funtype = command.FunType, whrebuy = command.WhereBuy }, commandType: CommandType.StoredProcedure);
+                return result.ToList();
+            }
+        }
+
+        public async Task<List<ReportCenterDto>> GetThisMonth(ReportCenterCommand command)
+        {
+            var query = "SP_Tickets_ThisMonth";
+            using (var connection = _context.CreateConnection())
+            {
+                var result = await connection.QueryAsync<ReportCenterDto>(query, new { funtype = command.FunType, whrebuy = command.WhereBuy }, commandType: CommandType.StoredProcedure);
+                return result.ToList();
+            }
+        }
+
+
     }
 }

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Application.Command
 {
-    public class RepotCenterCommand
+    public class ReportCenterCommand
     {
         /// <summary>
         /// نام تفریح
